@@ -1,5 +1,5 @@
 [package]
-name = "discord-get-stickers"
+name = "discord-stickers-getter"
 version = "0.1.0"
 edition = "2021"
 
