@@ -1,5 +1,5 @@
 use serde::{Deserialize, Serialize};
-use tokio::{fs::File, io::{AsyncReadExt, AsyncWriteExt}, join};
+use tokio::{fs::File, io::AsyncWriteExt};
 
 #[derive(Serialize, Deserialize, Debug)]
 struct StickerList {
